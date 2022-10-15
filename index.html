@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>ArpDevs Admin</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+
+</head>
+    <body>
+
+        <!-- Page Wrapper -->
+        <div id="wrapper">
+
+            <!-- Sidebar -->
+            <ul class="navbar-nav sidebar bg-gradient-danger accordion" id="accordionSidebar">
+
+                <!-- Sidebar - Brand -->
+                <a class="sidebar-brand d-flex" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15">
+                        <img src="assets/img/logo.png" alt="mascote" width="35">
+                    </div>
+                    <div class="sidebar-brand-text mx-3">ArpDevs</div>
+                </a>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider my-0">
+
+                <!-- Nav Item - Dashboard -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">
+                        <i class="material-icons">dashboard</i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Interface
+                </div>
+
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="true" aria-controls="collapseTwo">
+                        <i class="material-icons">settings</i>
+                        <span>Components</span>
+                    </a>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Custom Components:</h6>
+                            <a class="collapse-item" href="login.html">Login</a>
+                            <a class="collapse-item" href="register.html">Register</a>
+                            <a class="collapse-item" href="fotget.html">Forget</a>
+                            <a class="collapse-item" href="optin.html">Optin</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">
+                        <i class="material-icons">person</i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="charts.html">
+                        <i class="material-icons">insights</i>
+                        <span>Charts</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tables.html">
+                        <i class="material-icons">list_alt</i>
+                        <span>Tables</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="notifications.html">
+                        <i class="material-icons">notifications_active</i>
+                        <span>Notifications</span>
+                    </a>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider d-none d-md-block">
+
+                <!-- Sidebar Toggler (Sidebar) -->
+                <div class="text-center d-none d-md-inline">
+                    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+                </div>
+
+            </ul>
+            <!-- End of Sidebar -->
+
+            <!-- Content Wrapper -->
+            <div id="content-wrapper" class="d-flex flex-column">
+
+                <!-- Main Content -->
+                <div id="content">
+                    
+                    <nav class="navbar navbar-top bg-gradient-bluedark navbar-expand border-bottom">
+                        <!-- Sidebar Toggle (Topbar) -->
+                        <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                            <i class="material-icons">menu</i>
+                        </button>
+
+                        <ul class="navbar-nav align-items-center ml-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="media align-items-center">
+                                        <span class="avatar avatar-sm rounded-circle">
+                                            <img alt="Image" src="assets/img/user.jpg">
+                                        </span>
+                                        <div class="media-body d-none d-lg-block">
+                                            <span>John Snow</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a href="#!" class="dropdown-item">
+                                        <i class="material-icons">person</i>
+                                        <span>Profile</span>
+                                    </a>
+                                    <a href="#!" class="dropdown-item">
+                                        <i class="material-icons">settings</i>
+                                        <span>Settings</span>
+                                    </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                        <i class="material-icons fa-sm fa-fw mr-2 text-gray-400">logout</i>
+                                        Logout
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav><!-- end nav -->
+
+                    <div class="container-fluid mt-3">
+                        <div class="row p-3">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card">
+                                    <div class="card-item shadow">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2>54</h2>
+                                                <h5>Orders</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape shadow bg-gradient-danger">
+                                                    <i class="material-icons">groups</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="card-info">
+                                            <span>More View</span>
+                                            <i class="material-icons">arrow_right_alt</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card">
+                                    <div class="card-item shadow">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2>126</h2>
+                                                <h5>Charts</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape shadow bg-gradient-warning">
+                                                    <i class="material-icons">insights</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="card-info">
+                                            <span>More View</span>
+                                            <i class="material-icons">arrow_right_alt</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card">
+                                    <div class="card-item shadow">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2>245</h2>
+                                                <h5>Dollar</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape shadow bg-gradient-success">
+                                                    <i class="material-icons">attach_money</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="card-info">
+                                            <span>More View</span>
+                                            <i class="material-icons">arrow_right_alt</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card">
+                                    <div class="card-item shadow">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h2>548</h2>
+                                                <h5>Banck</h5>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="icon icon-shape shadow bg-gradient-info">
+                                                    <i class="material-icons">account_balance</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="card-info">
+                                            <span>More View</span>
+                                            <i class="material-icons">arrow_right_alt</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- end col -->
+                        </div><!-- end row -->
+                    </div>
+
+                </div>
+
+                <!-- Footer -->
+                <footer class="footer">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>
+                                &copy; Copyright 
+                                <script>document.write(new Date().getFullYear());</script> 
+                                <a href="www.arpdevs.com.br">
+                                    <img src="assets/img/mascote.png" width="17" alt="mascote" class="mb-1 ml-1">
+                                    ArdDevs Tecnologia</a> 
+                                    | Todos os Direitos Reservados
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+
+        </div><!-- end wrapper -->
+
+        <!-- Logout Modal-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Pronto para partir?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">Selecione "Sair" abaixo se você estiver pronto para encerrar sua sessão atual.</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                        <a class="btn btn-primary" href="#">Sair</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap and JavaScript-->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/jquery.easing.min.js"></script>
+        <script src="assets/js/scripts.min.js"></script>
+
+    </body>
+</html>
